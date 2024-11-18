@@ -21,4 +21,5 @@ export class UserComponent {
     const randomIndex = Math.floor(Math.random() * DUMMY_USERS.length);
     this.selectedUser = DUMMY_USERS[randomIndex];
   }
+  //jetzt wird jedes mal ein neuer user geladen und ein neues image laden, sobald der button angeklickt wird; der randomindex wird dabei überschrieben
 }
