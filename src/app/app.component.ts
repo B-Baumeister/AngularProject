@@ -15,4 +15,8 @@ export class AppComponent {
   title = 'angularProject';
 
   users = DUMMY_USERS;
+
+  onSelectUser(id: string) {
+    console.log('selected user with id: ' + id);
+  }
 }
