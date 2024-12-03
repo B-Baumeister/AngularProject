@@ -7,10 +7,13 @@
     </li>
     }
   </ul>
-@if (selectedUser) {<app-tasks [name]="selectedUser.name" />}
-@else {<p>please select an user</p>}
-  TASKS OF THAT USER
+  @if (selectedUser) {<app-tasks
+    [userId]="selectedUser.id"
+    [name]="selectedUser.name"
+  />} @else {
+  <p>please select an user</p>
+  } TASKS OF THAT USER
   <!-- <app-tasks /> -->
-  
+
   <router-outlet />
 </main>
