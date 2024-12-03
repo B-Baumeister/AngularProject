@@ -1,6 +1,5 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core'; //Input = Decorator; input= special function
-
-type User = { id: string; name: string; avatar: string };
+import { User } from './user.model';
 
 @Component({
   selector: 'app-user',
