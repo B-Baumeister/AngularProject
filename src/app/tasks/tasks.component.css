@@ -40,6 +40,12 @@ menu button:hover,
 menu button:active {
   background-color: #a565dd;
 }
+button:hover,
+button:active,
+.active {
+  background-color: #685f0b;
+  color: #150722;
+}
 
 ul {
   list-style: none;
